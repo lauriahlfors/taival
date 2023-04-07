@@ -20,7 +20,7 @@ This projects UI and UX are designed in Figma with Tailwind CSS's style guides.
 | Cause                     | Technology                                                                                   |
 | ------------------------- | -------------------------------------------------------------------------------------------- |
 | React Framework           | **[Next.js 13](https://nextjs.org/)**                                                        |
-| Authentication            | **[Auth.js](https://authjs.dev/)**                                                           |
+| Authentication            | **[NextAuth.js](https://next-auth.js.dev/)**                                                 |
 | Object Relational Mapping | **[Prisma](https://www.prisma.io/)**                                                         |
 | SQL Database              | **[PlanetScale](https://planetscale.com/)**                                                  |
 | Data Validation           | **[Zod](https://zod.dev/)**                                                                  |
