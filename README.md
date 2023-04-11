@@ -32,5 +32,5 @@ This projects UI and UX are designed in Figma with Tailwind CSS's style guides.
 
 ## Team members
 
-- [@lauri.ahlfors](https://github.com/lauriahlfors)
+- [@lauriahlfors](https://github.com/lauriahlfors)
 - [@SädeSipolainen](https://github.com/SadeSipolainen)
