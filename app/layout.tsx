@@ -1,4 +1,7 @@
+import NextAuthProvider from '@/providers/next-auth-provider';
+
 import { Manrope } from 'next/font/google';
+
 import './globals.css';
 
 const manrope = Manrope({
@@ -18,7 +21,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={manrope.className}>
-      <body>{children}</body>
+      <body>
+        <NextAuthProvider>{children}</NextAuthProvider>
+      </body>
     </html>
   );
 }
