@@ -21,7 +21,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={manrope.className}>
-      <body>
+      <body className="flex flex-col items-center justify-start bg-slate-950">
         <NextAuthProvider>{children}</NextAuthProvider>
       </body>
     </html>
