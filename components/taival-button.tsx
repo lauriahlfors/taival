@@ -6,7 +6,7 @@ interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   children?: React.ReactNode;
 }
 
-const CustomButton = forwardRef(function Button(
+const TaivalButton = forwardRef(function Button(
   props: ButtonProps,
   ref: Ref<HTMLButtonElement>
 ) {
@@ -21,12 +21,12 @@ const CustomButton = forwardRef(function Button(
             {children}
           </span>
           {/* Blobs */}
-          <div className="absolute m-auto h-20 w-full -translate-y-3/4 rounded-[50%] bg-blue-600 opacity-60 blur-lg transition duration-300 ease-in-out group-hover:opacity-100"></div>
-          <div className="absolute m-auto h-20 w-1/2 translate-y-3/4 rounded-[50%] bg-blue-600 opacity-60 blur-lg transition duration-300 ease-in-out group-hover:opacity-100"></div>
+          <div className="absolute m-auto h-20 w-full -translate-y-3/4 rounded-[50%] bg-blue-600 opacity-50 blur-lg transition duration-300 ease-in-out group-hover:opacity-100"></div>
+          <div className="absolute m-auto h-20 w-1/2 translate-y-3/4 rounded-[50%] bg-blue-600 opacity-50 blur-lg transition duration-300 ease-in-out group-hover:opacity-100"></div>
         </div>
       </div>
     </button>
   );
 });
 
-export default CustomButton;
+export default TaivalButton;
