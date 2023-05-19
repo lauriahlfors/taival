@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 export default function SignInPage() {
   return (
-    <div className="container flex min-h-screen flex-col items-center justify-center gap-12 ">
+    <div className="container flex min-h-screen flex-col items-center justify-center gap-8 ">
       <div>
         <p className="text-slate-200">Sign in to Taival!</p>
       </div>
