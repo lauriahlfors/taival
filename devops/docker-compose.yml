@@ -10,17 +10,18 @@ services:
         ports:
             - 5173:5173
 
-    reverse-proxy:
-        container_name: taival-reverse-proxy
-        image: caddy:latest
-        ports:
-            - 3000:3000
-        volumes:
-            - ./caddy/Caddyfile:/etc/caddy/Caddyfile
-            - caddy_data:/data
-            - caddy_config:/config
-        depends_on:
-            - frontend
+    # Caddy setup
+    # reverse-proxy:
+    #     container_name: taival-reverse-proxy
+    #     image: caddy:latest
+    #     ports:
+    #         - 3000:3000
+    #     volumes:
+    #         - ./caddy/Caddyfile:/etc/caddy/Caddyfile
+    #         - caddy_data:/data
+    #         - caddy_config:/config
+    #     depends_on:
+    #         - frontend
 
 volumes:
     caddy_data:

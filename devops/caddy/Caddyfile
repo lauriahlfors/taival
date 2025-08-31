@@ -1,3 +1,0 @@
-:3000 {
-  reverse_proxy /* frontend:5173
-}
