@@ -15,9 +15,6 @@ services:
         image: caddy:latest
         ports:
             - 3000:3000
-        configs:
-            - source: caddy_config
-            - target: /etc/caddy/Caddyfile
         volumes:
             - ./caddy/Caddyfile:/etc/caddy/Caddyfile
             - caddy_data:/data
